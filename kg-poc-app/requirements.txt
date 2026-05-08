@@ -1,0 +1,12 @@
+# Only what the app actually imports — nothing more.
+# Removed: sentence-transformers, databricks-vectorsearch, pyvis, networkx,
+#          langgraph, langchain (use langchain-core directly via databricks-langchain)
+
+streamlit>=1.32.0
+requests>=2.31.0
+databricks-langchain>=0.1.0
+langchain-core>=0.2.0
+databricks-sdk>=0.20.0
+databricks-sql-connector>=3.0.0
+snowflake-connector-python>=3.8.0
+pandas>=2.0.0
