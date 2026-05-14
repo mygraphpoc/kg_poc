@@ -1,0 +1,12 @@
+# KG-POC v2 — production-ready requirements
+# No sentence-transformers / PyTorch — embeddings via Databricks hosted endpoint
+
+streamlit>=1.32.0
+requests>=2.31.0
+databricks-langchain>=0.1.0
+langchain-core>=0.2.0
+databricks-sdk>=0.20.0
+databricks-vectorsearch>=0.38.0
+databricks-sql-connector>=3.0.0
+snowflake-connector-python>=3.8.0
+pandas>=2.0.0
